@@ -2,22 +2,23 @@
 An extended Wordpress Navwalker object that displays Bulma framework's Navbar https://bulma.io/ in Wordpress.
 
 # To use
-Place navwalker.php in your WordPress theme folder /wp-content/your-theme/
+1) Place navwalker.php in your WordPress theme folder /wp-content/your-theme/
 
-To use Bulma-navwalker add these lines to your functions.php
+2) add these lines to your functions.php
 
-require_once('navwalker.php'); register_nav_menus( array( 'primary' => __( 'Primary Menu', 'missionfit' ), ) );
+  require_once('navwalker.php'); register_nav_menus( array( 'primary' => __( 'Primary Menu', 'missionfit' ), ) );
 
-Then add this initializer in your header (either index.php, header.php, etc...)
+3) Then add this initializer in your header (either index.php, header.php, etc...)
 wp_nav_menu( 
-array( 
-'theme_location' => 'primary', 
-'depth' => 2, 
-'container' => false,
-'menu_class' => 
-'navbar-menu', 
-'menu_id' => 'primary-menu', 
-'after' => "", 
-'walker' => new Navwalker()) );
+  array( 
+  'theme_location' => 'primary', 
+  'depth' => 2, 
+  'container' => false,
+  'menu_class' => 
+  'navbar-menu', 
+  'menu_id' => 'primary-menu', 
+  'after' => "", 
+  'walker' => new Navwalker()
+));
 
 Congratulations you are now using Bulma!
