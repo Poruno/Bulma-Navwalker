@@ -1,6 +1,7 @@
-#Bulma Navwalker
+# Bulma Navwalker
 
-##To use
+## To use
+
 1) place navwalker.php in your WordPress theme folder /wp-content/your-theme/
 2) To use Bulma-navwalker add these lines to your functions.php
 ```
@@ -56,3 +57,4 @@ register_nav_menus( array(
 ```
 
 # Congratulations you are now using Bulma!
+You can thank me by connecting with me in LinkedIn! https://www.linkedin.com/in/carlooperio/
