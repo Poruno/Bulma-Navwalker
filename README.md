@@ -1,4 +1,4 @@
-## First place navwalker.php in your WordPress theme folder /wp-content/your-theme/
+## step one is to place navwalker.php in your WordPress theme folder /wp-content/your-theme/
 
 ## add these lines to your functions.php
 
@@ -9,7 +9,7 @@ register_nav_menus( array(
 ) );
 ```
 
-## Then add this initializer in your header (either index.php, header.php, etc...)
+## then add this initializer in your header (either index.php, header.php, etc...)
 ```
     wp_nav_menu( array(
         'theme_location'    => 'primary',
