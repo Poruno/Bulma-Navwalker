@@ -1,6 +1,6 @@
 ## First place navwalker.php in your WordPress theme folder /wp-content/your-theme/
 
-## To use Bulma-navwalker add these lines to your functions.php
+## add these lines to your functions.php
 
 ```
 require_once('navwalker.php');
