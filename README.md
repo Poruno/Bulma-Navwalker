@@ -7,7 +7,7 @@
 ```
 require_once('navwalker.php');
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'missionfit' ),
+    'primary' => __( 'Primary Menu', 'menuname' ),
 ) );
 ```
 3) Then add this initializer in your header (either index.php, header.php, etc...)
