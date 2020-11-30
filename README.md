@@ -73,4 +73,4 @@ register_nav_menus( array(
 You can thank me by connecting with me in LinkedIn! https://www.linkedin.com/in/carlooperio/
 
 # Troubleshooting
-1) Error: in_array(Line 49) 
+1) Error: in_array(Line 49) occurs when first step is skipped. I've realized that I have not included that part in this readme.
