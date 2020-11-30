@@ -42,7 +42,7 @@ register_nav_menus( array(
 ```
 5) To make the nav-burgers work add this to the end of the body
 ```
-	<script>
+<script>
     document.addEventListener('DOMContentLoaded', () => {
         
         // Get all "navbar-burger" elements
@@ -66,7 +66,7 @@ register_nav_menus( array(
             });
         }
     });
-    </script>
+</script>
 ```
 
 # Congratulations you are now using Bulma!
