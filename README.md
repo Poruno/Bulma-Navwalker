@@ -8,7 +8,7 @@
 ```
 require_once('navwalker.php');
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'menuname' ),
+    'primary' => __( 'Primary Menu', 'primary' ),
 ) );
 ```
 4) Copy this to your header
