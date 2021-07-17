@@ -20,7 +20,7 @@ class Navwalker extends Walker_Nav_Menu {
 
     public function start_lvl( &$output, $depth = 0, $args = array() ) {
        
-        $output .= "<div class='navbar-dropdown'>";
+        $output .= "<div class='navbar-dropdown is-boxed'>";
     }
 
     public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
