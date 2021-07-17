@@ -28,7 +28,7 @@ class Navwalker extends Walker_Nav_Menu {
         $liClasses = 'navbar-item '.$item->title;
 
         $hasChildren = false;
-        if(isset($args->walkerhas_children)) {
+        if(isset($args->walker->has_children)) {
             $hasChildren = $args->walker->has_children;
         }
         
